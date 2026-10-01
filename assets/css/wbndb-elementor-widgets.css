@@ -1,0 +1,27 @@
+/*
+ * Styles for the "Buy Now Button" Elementor widget's Position control.
+ * Only enqueued on pages where the widget is actually used (see
+ * get_style_depends() in class-wbndb-elementor-buy-now-widget.php).
+ */
+
+.wbndb-elementor-buy-now.wbndb-position-left {
+    text-align: left;
+}
+
+.wbndb-elementor-buy-now.wbndb-position-center {
+    text-align: center;
+}
+
+.wbndb-elementor-buy-now.wbndb-position-right {
+    text-align: right;
+}
+
+.wbndb-elementor-buy-now.wbndb-position-stretch {
+    display: flex;
+}
+
+.wbndb-elementor-buy-now.wbndb-position-stretch .wbndb-buy-now-btn {
+    flex: 1 1 auto;
+    width: 100%;
+    text-align: center;
+}
